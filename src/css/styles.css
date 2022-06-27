@@ -1,6 +1,10 @@
 .whole-view {
+<<<<<<< HEAD
     display: flex;
     height: auto;
+=======
+    display: flex
+>>>>>>> 49f78a91761eac14d3a2e69f3491266c8830d100
 }
 
 .menu-lateral {
@@ -26,6 +30,7 @@
     width: 90%;
     margin: auto;
     margin-top: 5%;
+<<<<<<< HEAD
 }
 
 .main-page {
@@ -36,4 +41,6 @@
 
 .obj {
     width: 100%;
+=======
+>>>>>>> 49f78a91761eac14d3a2e69f3491266c8830d100
 }
