@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+        <link href="./css/bootstrap.min.css" rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
+        <title>Victor's Page</title>
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <section class="whole-view">
+        <section class="menu-lateral bg-primary">
+          <header class="menu-header text-danger">Victor Daniel Stella Paiva</header>
+          <img src="../assets/profile.png" alt="profile picture" width="100%" />
+          
+          <p class="menu-grr text-danger">GRR20200234</p>
+          <section class="list-group menu-list">
+            <button onclick="changeObj('principal')" class="list-group-item list-group-item-action">Principal</button>
+            <button onclick="changeObj('atividades')" class="list-group-item list-group-item-action">Atividades</button>
+            <button onclick="changeObj('contato')" class="list-group-item list-group-item-action">Contato</button>
+          </section>
+        </section>
+        <section class="main-page">
+          <object id="obj" data="./pages/principal/principal.html" class="obj"></object>
+        </section>
+      </section>  
+    </body>
+    
+    <script>
+      function changeObj(param) {
+        document.getElementById("obj").data = "./pages/" + param + "/" + param + ".html"
+      }
+    </script>
+</html>

@@ -1,0 +1,36 @@
+.principal {
+    height: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.principal-header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.gif {
+    margin-top: 3%;
+}
+
+.principal-me {
+    font-size: large;
+    margin: 5%;
+}
+
+.principal-text-header {
+    font-size: x-large;
+    text-align: start;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.principal-text {
+    text-align: start;
+    font-size: large;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1%;
+}
